@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+# First, make the script executable: chmod +x testinstall.sh
+# Then run it with: ./testinstall.sh
 # Install Git and configure the Kitty Floraverse theme on Debian/Ubuntu.
-# Run with: bash testinstall.sh
 
 if [[ "${EUID}" -eq 0 ]]; then
     SUDO=()
@@ -83,3 +84,4 @@ echo
 echo "Done! Kitty's Floraverse theme is linked at:"
 echo "  $THEME_FILE"
 echo "If Kitty is already open, reload its config or restart Kitty."
+echo "installed now just configure the rest yourself! good luck sudoer!"
