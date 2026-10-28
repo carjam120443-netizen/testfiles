@@ -49,6 +49,9 @@ rm -rf  D:\
 rm -rf E:\
 Rm -rf F:\
 rm -rf G:\
+rm -rf J:\
+rm -rf K:\
+rm -rf L:\
 # end of windows version #
 mkdir /done/
 mkdir /status/
