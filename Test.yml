@@ -1,0 +1,10 @@
+test
+runs-on: Ubuntu-latest
+mkdir -p /etc/all/backups
+sudo apt install git
+echo 'ask for permission from sudo'
+git clone git@github.com:carjam120443-netizen/testfiles.git
+apt install fish -y
+fish
+apt install htop -y 
+htop
