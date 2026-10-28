@@ -21,3 +21,5 @@ jobs:
           echo "Checking OS version:"
           cat /etc/os-release
           
+name: upgrade packages
+run: apt upgrade && apt upgrade 
