@@ -1,0 +1,23 @@
+name: Debian Workflow Demo
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  run-on-debian:
+    runs-on: ubuntu-latest
+    
+    # This forces GitHub to run your commands inside Debian instead of Ubuntu
+    container:
+      image: debian:stable-slim
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify Environment
+        run: |
+          echo "Checking OS version:"
+          cat /etc/os-release
+          
