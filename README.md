@@ -1,7 +1,13 @@
 testfiles.
 each compilers test files.
 theres a lot so some may not be listed here.
-<img src="https://cdn.freebiesupply.com/logos/large/2x/open-source-logo-svg-vector.svg" width="46px" height="45px" style="float">open source logo
-<img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1280px-ISO_C%2B%2B_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" width="46px" height="45px">C-plus-plus
-<img src="https://www.opensourceforu.com/wp-content/uploads/2015/05/Android-June-151.jpg"  width="60px" height="60px">ART/android-runtime
-<img src="https://img.magnific.com/free-psd/3d-rendered-html-file-icon_84443-57041.jpg?semt=ais_hybrid&w=740&q=80" width="60px" height="60px">html
+
+<p align="center">
+  <img src="https://freebiesupply.com" width="46px" height="45px" alt="open source logo" style="vertical-align:middle; margin-right: 10px;"> open source logo
+  <br><br>
+  <img src="https://wikimedia.org" width="46px" height="45px" alt="C-plus-plus" style="vertical-align:middle; margin-right: 10px;"> C-plus-plus
+  <br><br>
+  <img src="https://opensourceforu.com" width="60px" height="45px" alt="ART/android-runtime" style="vertical-align:middle; margin-right: 10px;"> ART/android-runtime
+  <br><br>
+  <img src="https://magnific.com" width="60px" height="60px" alt="html" style="vertical-align:middle; margin-right: 10px;"> html
+</p>
