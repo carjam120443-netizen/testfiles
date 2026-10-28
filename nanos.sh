@@ -19,3 +19,5 @@ git clone https://github.com/oh-my-fish/oh-my-fish.git /os/other
 echo 'these are backup files'
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > install
 fish install --path=~/.local/share/omf --config=~/.config/omf
+apt-get upgrade
+echo 'all done'
