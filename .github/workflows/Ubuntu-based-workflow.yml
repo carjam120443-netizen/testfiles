@@ -16,10 +16,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Verify Environment
+      - name: packagee Environment
         run: |
           echo "Checking OS version:"
           cat /etc/os-release
           
-name: upgrade packages
-run: apt upgrade && apt upgrade 
+name: upgrade package - run: apt upgrade && apt upgrade 
