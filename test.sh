@@ -1,4 +1,4 @@
-#/
+#!/bin/bash
 echo 'im not responsible for any damages to your pc please run this 
 in a test vm or a pc you dont need this is a test .sh'
 su %% sudo -i
