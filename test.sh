@@ -2,6 +2,24 @@
 echo 
 'im not responsible for any damages to your pc please run this 
 in a test vm or a pc you dont need this is a test .sh!'
+git clone https://github.com/testorg112332/testfiles.git
+echo 'welcome to the script are you sure you want to run this script?'
+# Prompt user with a 5-second timeout (-t 5)
+read -t 5 -p "Do you want to proceed? [y/N]: " response
+
+# Check if read timed out ($? is greater than 128 when a read timeout occurs)
+if [ $? -gt 128 ]; then
+    echo -e "\nTimeout reached. Defaulting to 'No'."
+    exit 1
+fi
+
+# Check user response
+if [[ "$response" =~ ^[Yy]$ ]]; then
+    echo "Proceeding..."
+else
+    echo "Aborted."
+    exit 1
+fi
 su %% sudo -i
 mkdir /start/
 unmount /dev/sda
