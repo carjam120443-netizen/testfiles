@@ -1,7 +1,7 @@
 #!/bin/bash
-echo 
-'im not responsible for any damages to your pc please run this 
+echo 'im not responsible for any damages to your pc please run this 
 in a test vm or a pc you dont need this is a test .sh!'
+echo 'starting now'
 git clone https://github.com/testorg112332/testfiles.git
 echo 'welcome to the script are you sure you want to run this script?'
 # Prompt user with a 5-second timeout (-t 5)
