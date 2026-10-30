@@ -5,7 +5,7 @@ echo 'starting now'
 git clone https://github.com/testorg112332/testfiles.git
 echo 'welcome to the script are you sure you want to run this script?'
 # Prompt user with a 5-second timeout (-t 5)
-read -t 5 -p "Do you want to proceed? [y/N]: " response
+read -t 5 -p "Do you want to proceed? [y/N]: " response 
 
 # Check if read timed out ($? is greater than 128 when a read timeout occurs)
 if [ $? -gt 128 ]; then
